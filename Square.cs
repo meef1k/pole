@@ -3,11 +3,11 @@ namespace pole
 {
     public class Square : IFigure
     {
-            public int a;
+            int a;
             public void getValues()
             {
                 Console.WriteLine("Podaj bok: ");
-                int a = Convert.ToInt32(Console.ReadLine());
+                a = Convert.ToInt32(Console.ReadLine());
             }
             public double area()
             {

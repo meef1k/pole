@@ -3,20 +3,20 @@ namespace pole
 {
     public class Triangle : IFigure
     {
-            public int a;
-            public int b;
-            public int c;
-            public int h;
+            int a;
+            int b;
+            int c;
+            int h;
             public void getValues()
             {
                 Console.WriteLine("Podaj a: ");
-                int a = Convert.ToInt32(Console.ReadLine());
+                a = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Podaj b: ");
-                int b = Convert.ToInt32(Console.ReadLine());
+                b = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Podaj c: ");
-                int c = Convert.ToInt32(Console.ReadLine());
+                c = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Podaj h: ");
-                int h = Convert.ToInt32(Console.ReadLine());
+                h = Convert.ToInt32(Console.ReadLine());
             }
             public double area()
             {

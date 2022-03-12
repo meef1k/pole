@@ -3,11 +3,11 @@ namespace pole
 {
     public class Circle : IFigure
     {
-            public int r;
+            int r;
             public void getValues()
             {
                 Console.WriteLine("Podaj promień: ");
-                int r = Convert.ToInt32(Console.ReadLine());
+                r = Convert.ToInt32(Console.ReadLine());
             }
             public double area()
             {
